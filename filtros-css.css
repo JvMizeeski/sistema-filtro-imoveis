@@ -1,0 +1,23 @@
+
+.grid-cards-imoveis {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+.paginacao-imoveis {
+    text-align: center;
+    margin-top: 40px;
+}
+.paginacao-imoveis .page-numbers {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+    background: #f1f1f1;
+    color: #000;
+    text-decoration: none;
+}
+.paginacao-imoveis .current {
+    background: #0073aa;
+    color: #fff;
+}

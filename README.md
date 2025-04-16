@@ -20,10 +20,10 @@ Este projeto implementa um sistema de busca com filtros para um site de imóveis
 
 ## Como usar
 
-1. Suba o conteúdo do `functions-snippet.php` no seu `functions.php` ou via plugin de snippets.
+1. Suba o conteúdo do `functions-snippet.php` no seu `functions.php` ou via plugin de snippets (Faz um backup antes).
 2. Crie uma página e adicione o shortcode `[mostrar_imoveis_loop]` abaixo do formulário do Search & Filter.
-3. Certifique-se que o ID do template do Elementor esteja correto (substitua `142` se necessário).
-4. Opcionalmente adicione os estilos de `filtros-css.css` no seu tema.
+3. Se certifica que o ID do template do Elementor estará correto.
+4. Adiciona os estilos de `filtros-css.css` no seu tema (Vai de acordo com a preferência).
 
 ## Shortcode Search & Filter
 

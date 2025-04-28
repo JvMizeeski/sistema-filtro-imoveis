@@ -28,9 +28,11 @@ Este projeto implementa um sistema de busca com filtros para um site de imóveis
 ## Shortcode Search & Filter
 
 ```
-[searchandfilter fields="search,tipo_imovel,quartos,status_do_imovel"
-types="text,select,select,select"
-headings="Buscar,Tipo de Imóvel,Quartos,Status do Imóvel"
-post_types="imovel"
-submit_label="Buscar"]
+[searchandfilter 
+  fields="search,tipo_imovel,quartos_padrao,status_do_imovel" 
+  types="text,select,select,select" 
+  headings=",,,," 
+  post_types="imovel" 
+  submit_label="Buscar" 
+  class="filtro-imovel-ui"]
 ```
